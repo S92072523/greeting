@@ -10,14 +10,7 @@ while True:
     choice = int(input("Enter your choice(1 - 4: )"))
 
     if choice == 1:
-         #Input for customer table:
-        Cus_Id = input('Enter the Custome ID: [eg: C_0001]')
-        Cus_Name = input('Enter the customer Name: [eg: M.Jhon]')
-        Cus_Location = input('Enter the customer Location: [eg: Jaffna]')
-
-        file = open("Customers.txt", 'a')
-        file.write(f"{Cus_Id}\t{Cus_Name}\t{Cus_Location}\n")
-        file.close
+         print("Hello")
     elif choice == 2:
         #Input for Account:
         Acc_Id = input('Enter the account ID: [eg: A_000101]')
